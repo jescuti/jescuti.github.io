@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 252, 242);
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(9, 0, 28);
+    border-width: 2px;
+    z-index: 10;
+
+}
+nav .nav_content{
+    height: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav_content .logo a{
+    padding-left: 20px;
+    font-size: 35px;
+    color: rgb(9, 0, 28);
+    font-family: "Unica One", monospace;
+}
+nav .nav_content .nav_links{
+    display: flex;
+    align-items: center;
+}
+nav .nav_links li{
+    list-style: none;
+    margin: 0 8px;
+}
+nav .nav_links a{
+    font-size: 16px;
+    color: rgb(9, 0, 28);
+    background-color: rgb(213, 232, 212);
+    padding: 10px 15px;
+    border-style: solid;
+    border-color: rgb(9, 0, 28);
+    border-radius: 15px;
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+nav .nav_links a:hover{
+    background-color: rgb(103, 171, 159);
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(tumblr_07496b65aba337a06e929804559668d9_5ed93d0c_500.gif);
+    background-size: cover;
+    background-position: center;
+}
+.image_overlay_text1{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 60px;
+}
+.image_overlay_text2{
+    position: absolute;
+    bottom: 40%;
+    right: 40%;
+    font-size: 70px;
+}
+body{
+    background-color: rgb(63, 83, 125);
+
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    color: rgb(255, 252, 242);
+}
+h1{
+    font-family: "Unica One", monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 252, 242)
+}
+h2{
+    font-family: "Unica One", monospace;
+    font-size: 35px;
+    color: rgb(9, 0, 28);
+}
+h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(255, 252, 242)
+}
+h4{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(255, 238, 161);
+}
+h5{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(213, 232, 212);
+}
+h6{
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    color: rgb(9, 0, 28);
+}
+.emph{
+    color: rgb(255, 238, 161);
+    font-size: 15px;
+    font-weight: bold;
+}
