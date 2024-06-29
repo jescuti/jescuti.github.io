@@ -87,19 +87,35 @@ nav .nav_links a:hover{
     text-shadow: rgb(63, 83, 125) 0px 0px 3px;
     -webkit-font-smoothing: antialiased;
 }
+.intro-block{
+    width: 100%;
+}
 #intro{
     float: left;
     width: 50%;
-    margin: 100px;
+    padding: 80px;
 }
-.skills-images{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0 8px;
+.skills{
+    width: 100%;
 }
-.skills-images img{
-    width: 30%;
+.skills img{
+    height: 80px;
+}
+.shark{
+    width: 50%;
+    float:right;
+}
+.shark img{
+    width: 100%;
+    padding: 20px;
+}
+.people-ive-worked-with{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.people-ive-worked-with img{
+    height: 200px;
 }
 body{
     background-color: rgb(63, 83, 125);
