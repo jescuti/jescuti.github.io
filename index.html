@@ -39,15 +39,6 @@
                 Its wings are too small to get its fat little body off the ground. 
                 The bee, of course, flies anyway because bees don't care what humans think is impossible.</body>
                 <table class="skills">
-                    <thead>
-                        <tr>
-                            <th>Java</th>
-                            <th>Python</th>
-                            <th>CSS/HTML</th>
-                            <th>Unity</th>
-                            <th>Blender</th>
-                        </tr>
-                    </thead>
                     <tbody>
                         <tr>
                             <td><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-1024.png" alt="java icon"></td>
@@ -56,18 +47,92 @@
                             <td><img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/unity-512.png" alt="unity icon"></td>
                             <td><img src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Blender.png" alt="blender icon"></td>
                         </tr>
+                        <tr>
+                            <th>Java</th>
+                            <th>Python</th>
+                            <th>CSS/HTML</th>
+                            <th>Unity</th>
+                            <th>Blender</th>
+                        </tr>
                     </tbody>
                 </table>
             </div>
             <div class="shark">
                 <img src="https://dodo.ac/np/images/b/ba/Whale_Shark_NH.png">
             </div>
-            <div class="people-ive-worked-with">
-                <img src="BAI_web-digital_use-only_HZ-Rev Text.png" alt="Brown Arts Institute Logo">
-                <img src="BrownCSLogo.png" alt="Brown Computer Science Logo">
-            </div>
+            <br>
+            <table class="people-ive-worked-with">
+                <tbody>
+                    <tr>
+                        <td><img src="BAI_web-digital_use-only_HZ-Rev Text.png" alt="Brown Arts Institute Logo"></td>
+                        <td><img src="BrownCSLogo.png" alt="Brown Computer Science Logo"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         
+        <!--Projects-->
+        <div id="projects">
+            <h3>Projects</h3>
+            <div class="featured-projects">
+                <h4>Fragments in Process</h4>
+                <h5>An Immersive Virtual Reality Experience Centered Around the Ignite Series</h5>
+                <a href="https://sites.google.com/brown.edu/fragmentsinprocess/home">Project Website</a>
+                <div class="big-image">
+                    <img src="LindemannInterior.png" alt="Lindemann Interior" width=80%>
+                </div>
+                <table id="lindemann-gallery">
+                    <tbody>
+                        <tr>
+                            <td><img src="LindemannExterior.png" alt="Lindemann Exterior"></td>
+                            <td><img src="LindemannStairs.png" alt="Lindemann Stairs"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>In the words of the Brown Arts Institute, Fragments in Process is, "a digital reliquary: a collaborative memory that has yet to be formed."
+                    As a creative designer on this project, my job was to elevate Brown University's <a href="https://arts.brown.edu/spaces/lindemann">Lindemann Performing Arts Center</a> into a surreal, liminal space
+                    that could be explored in VR. Turning the real world into the virtual world was not easy. Combining Blender and Unity workflows, I made every polygon count. To make the virtual Lindemann look like its real life
+                    counterpart, I created procedural shaders in Unity that both added to the space's aesthetic appeal and optimized for VR. 
+                </p>
+                <p id="lindemann-experiments-header">Thinking In VR</p>
+                <table id="experiments-table">
+                    <tbody>
+                        <tr>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Sn5AHOxa2Q8?si=4QSN0iNXnZDZxz_u&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                            <td><h5>Particle Plants</h5>
+                                <p>The leaves and plants in this video are made using a Unity particle system, but believe it or not, 
+                                so are the sun rays! To mimic real-time raytracing, a rendering process that is pretty but not practical in VR, I 
+                                combined a particle system with layers of shaders. 
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/rYpjGUl4oXs?si=nWrTiwmF7yaywfdw&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                            <td>
+                                <h5>Shader Sea</h5>
+                                <p>Telling the VR processing system to simulate every single drop of water in an ocean would quickly overwhelm it.
+                                    Convincing water is still possible. To trick a flat plane into looking like an ocean, I overlapped displacement maps and 
+                                    applied a highly specular and translucent material. 
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="EdgeDetection.png" alt="Edge detection photo" width=560px></td>
+                            <td>
+                                <h5>Edge Detection Algorithm</h5>
+                                <p>Fragments in Process is a highly experimental endevour, so I wanted to experiment with 
+                                    non-photorealistic looks in VR. This shader, meant to mimic comic book inking, detects differences in an object's color
+                                    or topology, and if a large enough difference is noticed, it marks an outline.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
             
     
         <h1>Travel to New Zealand</h1>

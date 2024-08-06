@@ -96,7 +96,11 @@ nav .nav_links a:hover{
     padding: 80px;
 }
 .skills{
+    padding-top: 2em;
     width: 100%;
+}
+.skills th{
+    padding: 5px;
 }
 .skills img{
     height: 80px;
@@ -110,12 +114,53 @@ nav .nav_links a:hover{
     padding: 20px;
 }
 .people-ive-worked-with{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 75%;
+    margin: auto;
+    text-align: center;
 }
 .people-ive-worked-with img{
-    height: 200px;
+    height: 10em;
+}
+#projects{
+    margin-top: 5em;
+    width: 100%;
+    text-align: center;
+}
+#projects h3{
+    font-size: 50px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: thick double rgb(103, 171, 159);
+}
+#projects h4{
+    font-size: 30px;
+}
+#projects h5{
+    margin: 0.5em;
+}
+#projects p{
+    width: 80%;
+    margin: auto;
+}
+.big-image{
+    margin-top: 2em;
+}
+#lindemann-gallery{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#lindemann-gallery img{
+    width: 100%;
+}
+#lindemann-experiments-header {
+    font-family: "Unica One", monospace;
+    font-size: 80px;
+    color: rgb(255, 252, 242);
+    padding: 40px;
 }
 body{
     background-color: rgb(63, 83, 125);
@@ -138,7 +183,7 @@ h3{
     font-family: "Josefin Sans", sans-serif;
     font-size: 27px;
     font-weight: bold;
-    color: rgb(255, 252, 242)
+    color: rgb(255, 252, 242);
 }
 h4{
     font-family: "Josefin Sans", sans-serif;
@@ -155,6 +200,12 @@ h6{
     font-family: "Lexend", sans-serif;
     font-size: 16px;
     color: rgb(9, 0, 28);
+}
+a{
+    color: rgb(247, 160, 114);
+}
+a:hover{
+    color: rgb(255, 238, 161);
 }
 .emph{
     color: rgb(255, 238, 161);
