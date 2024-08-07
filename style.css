@@ -129,14 +129,15 @@ nav .nav_links a:hover{
 #projects h3{
     font-size: 50px;
     margin-top: 3em;
-    margin-bottom: 2em;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: thick double rgb(103, 171, 159);
 }
 #projects h4{
+    width: 30%;
     font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    margin-top: 1em;
+    border-top: thick double rgb(103, 171, 159);
 }
 #projects h5{
     margin: 0.5em;
@@ -161,6 +162,51 @@ nav .nav_links a:hover{
     font-size: 80px;
     color: rgb(255, 252, 242);
     padding: 40px;
+}
+.experiment-visual{
+    padding-left: 2em; 
+}
+.big-image{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    overflow: hidden;
+    white-space: nowrap;
+
+    /*width: 100%;
+    height: 25em;
+    margin-left: auto;
+    margin-right: auto;*/
+    
+    
+
+}
+.container:hover .image-container{
+    animation-play-state: paused;
+}
+.image-container{
+    /*width: 100%;*/
+    display: inline-flex;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+.image-container img{
+    width: 720px;
+    height: 100%;
+}
+@keyframes slide{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
 body{
     background-color: rgb(63, 83, 125);
