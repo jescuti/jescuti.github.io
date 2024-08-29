@@ -14,10 +14,9 @@ nav{
     width: 100%;
     background-color: rgb(255, 252, 242);
     padding: 10px;
-    border-style: solid;
-    border-color: rgb(9, 0, 28);
     border-width: 2px;
     z-index: 10;
+    filter: drop-shadow(8px 8px 10px rgb(103, 171, 159));
 
 }
 nav .nav_content{
@@ -48,8 +47,6 @@ nav .nav_links a{
     color: rgb(9, 0, 28);
     background-color: rgb(213, 232, 212);
     padding: 10px 15px;
-    border-style: solid;
-    border-color: rgb(9, 0, 28);
     border-radius: 15px;
     border-width: 2px;
     transition: all 0.3s ease;
@@ -105,13 +102,37 @@ nav .nav_links a:hover{
 .skills img{
     height: 80px;
 }
+.skills-container{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2em;
+    white-space: nowrap;
+}
+.skills-slide{
+    
+    
+    display: inline-block;
+}
+.skills-container:hover .skills-slide{
+    animation-play-state: paused;
+}
+.skills-slide img{
+    width: 100%;
+}
+@keyframes slide-s{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
 .shark{
     width: 50%;
     float:right;
 }
 .shark img{
-    width: 100%;
-    padding: 20px;
+    width: 75%;
 }
 .people-ive-worked-with{
     width: 75%;
