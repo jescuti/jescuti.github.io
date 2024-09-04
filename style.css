@@ -15,7 +15,7 @@ nav{
     background-color: rgb(255, 252, 242);
     padding: 10px;
     border-width: 2px;
-    z-index: 10;
+    z-index: 1000;
     filter: drop-shadow(8px 8px 10px rgb(103, 171, 159));
 
 }
@@ -91,6 +91,7 @@ nav .nav_links a:hover{
     float: left;
     width: 50%;
     padding: 80px;
+    transition: all 0.3s ease;
 }
 .skills{
     padding-top: 2em;
@@ -130,9 +131,16 @@ nav .nav_links a:hover{
 .shark{
     width: 50%;
     float:right;
+    overflow: hidden;
 }
 .shark img{
     width: 75%;
+}
+div.shark-mover div{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    width: 40%;
 }
 .people-ive-worked-with{
     width: 75%;
