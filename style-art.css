@@ -66,17 +66,46 @@ nav .nav_links a:hover{
 
 .container{
     padding: 0.2rem 5%;
+    transition: 0.2s linear;
 }
 
 .container .image-container{
+    display: inline-block;
     columns: 15rem 3;
     gap: 1.4rem;
 }
 
-.container .image-container img{
-    width: 100%;
-    
+.wrap{
+    position: relative;
 }
+.wrap img{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;   
+}
+.wrap .overlay-text{
+    position: absolute;
+    inset: 0;
+    background: rgb(103, 171, 159, 0.5);
+    opacity: 0;
+    width: 100%;
+    border-radius: 0.7rem;
+    padding: 2em;
+}
+.wrap .overlay-text p{
+    color:rgb(255, 252, 242);
+}
+.wrap .overlay-text, .wrap img{
+    transition: 0.3s ease-in-out;
+}
+.wrap .overlay-text:hover{
+    opacity: 1;
+}
+.wrap:hover img{
+    filter: blur(1px) brightness(75%);
+}
+
 body{
     background-color: rgb(195, 221, 229);
     font-family: "Lexend", sans-serif;
@@ -129,3 +158,4 @@ a:hover{
 li{
     margin: .75em;
 }
+
